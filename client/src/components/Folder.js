@@ -54,9 +54,9 @@ toggleCollapse = () => {
               
             </MDBDropdownToggle>
             <MDBDropdownMenu className="dropdown-default SubMenu">
-              <MDBDropdownItem  onClick={this.clickDelete}>Clear</MDBDropdownItem>
+              <MDBDropdownItem  onClick={this.clickDelete}>Delete</MDBDropdownItem>
               <MDBDropdownItem onClick={this.clickEdit}>Rename</MDBDropdownItem>
-              <MDBDropdownItem  onClick={this.clickCopy} >Paste</MDBDropdownItem>
+              <MDBDropdownItem  onClick={this.clickCopy} >Copy</MDBDropdownItem>
             </MDBDropdownMenu>
           </MDBDropdown>
           <Modal isOpen={this.state.modalEdit} toggle={this.clickEdit}>
