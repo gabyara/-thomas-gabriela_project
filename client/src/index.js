@@ -5,7 +5,6 @@ import HomeUser from './HomeUser';
 import Principal from './Principal';
 import Services from './Services';
 import Planes from './Planes';
-import Perfil from './Perfil';
 import App from './App'
 import * as serviceWorker from './serviceWorker';
 import 'bootstrap/dist/css/bootstrap.css';
